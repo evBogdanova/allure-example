@@ -36,7 +36,7 @@ public class IssuesRestTest {
     @Story("Close existing issue")
     @Microservice("Repository")
     @Tags({@Tag("web"), @Tag("regress")})
-    @JiraIssues({@JiraIssue("AUTO-276")})
+    @JiraIssues({@JiraIssue("AUTO-276: task for homework 23")})
     @ParameterizedTest(name = "Close issue via api")
     @ValueSource(strings = {"First Note", "Second Note"})
     public void shouldDeleteUserNote(String title) {

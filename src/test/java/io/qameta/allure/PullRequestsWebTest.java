@@ -32,7 +32,7 @@ public class PullRequestsWebTest {
     @Microservice("Billing")
     @Story("Create new pull request")
     @Tags({@Tag("web"), @Tag("regress"), @Tag("smoke")})
-    @JiraIssues({@JiraIssue("AUTO-276"), @JiraIssue("AUTO-276")})
+    @JiraIssues({@JiraIssue("AUTO-276"), @JiraIssue("AUTO-276: task for homework 23")})
     @DisplayName("Creating new issue for authorized user")
     public void shouldCreatePullRequest() {
         steps.openPullRequestsPage(OWNER, REPO);
