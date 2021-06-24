@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
  * @author eroshenkoam (Artem Eroshenko).
  */
 @Layer("web")
-@Owner("ebogdanova")
+@Owner("c05_ebogdanovaa")
 @Feature("Issues")
 public class IssuesWebTest {
 
